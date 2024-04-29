@@ -49,7 +49,7 @@ class resource_pool(object):
         ''' Time is kept track of both at the plant-level as well as the specific organ-level.'''
         self.plant_age = 0 #centralized time for the plant object; biological time, most often in thermal units
         self.resource_pool_age = None # localized time for the resource_pool; biological time based on age of resource pool
-
+        self.resource_pool_age_history = None # instrumentation variable to ensure sensible progression
 
         #### PULL STRENGTH FROM CENTRAL PLANT RESOURCES ####
         self.sink_strength = None # set based on set_sink_strength method
@@ -71,6 +71,9 @@ class resource_pool(object):
 
 
     def resource_pool_age_step(self):
+        ''' insert code here for updating pool age '''
+        self.resource_pool_age = None
+        self.resource_pool_age_history.append(self.resource_pool_age)
         pass
 
 
