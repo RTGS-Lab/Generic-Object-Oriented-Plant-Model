@@ -4,6 +4,10 @@ Derived from [Generic Crop Growth Model](https://github.com/RTGS-Lab/Generic_Cro
 # MPM Versions
 See [here for working verisons](https://docs.google.com/spreadsheets/d/1SK-l4JeugyJpgluEuVgbR2luuB4z7Lki/edit#gid=920949739).
 
+# Working Google Doc
+See [here](https://docs.google.com/document/d/18V336Te51oinFuM-MM-Cg4AhIdTY6mULkB5h4HHFp44/edit)
+
+
 #
 |Version|Name|Description|
 |-------|----|-----------|
