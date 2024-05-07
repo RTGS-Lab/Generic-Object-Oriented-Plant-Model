@@ -36,7 +36,20 @@ class plant(object):
         self.nitrogen = 0 # central nitrogen available at time step t; # grams / m^2; 
         self.nitrogen_history = [] # plant-level history of nitrogen available at each time step; 
                                    # grams / m^2
+	
 
+
+        '''Water status? Or water? Operates differently from C/N. Water is a flux.'''
+        self.water = 1 # scalar for other processes in this version ranges from 0-1; often calculated proportional to need
+        self.water_history = [] # history of water scalar
+
+	'''Water? Turgor-driven(sp?) growth; expansive growth; water entrance into plant at time step t
+           Water used in modeling typically as a trigger for "stress" which is a limit on photosysnthesis
+           and transpiration, which ultimately limits stored carbon. Can track stem or leaf water potential.
+           Follow flow of water based on resistances.
+
+           Scalar used for water. This gets updated at each time step and affects uptake.
+        '''
 
         #### ENVIRONMENT-DERIVED INPUTS ####
         ''' '''
