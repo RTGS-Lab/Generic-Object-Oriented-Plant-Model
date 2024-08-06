@@ -19,5 +19,5 @@ See [here](https://docs.google.com/document/d/18V336Te51oinFuM-MM-Cg4AhIdTY6mULk
 
 # Cases to Consider
 1. Simple growing degree model for maize
-2. Within-species variation (morphology substantially different *Brassica rapa L.*; see data from [Wang et al. 2019](https://academic-oup-com.ezp1.lib.umn.edu/jxb/article/70/9/2561/5368547?login=true&token=))
+2. Within-species variation (morphology substantially different *Brassica rapa L.*; see data from [Wang et al. 2019](https://doi-org.ezp1.lib.umn.edu/10.1093/jxb/erz090)
 3. Cotton (lack strong selection for morphology, but some differences across genotypes; more modifications in physiology)
